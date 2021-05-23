@@ -5,6 +5,8 @@ sudo apt-get install git
 sudo apt-get install zsh 
 sudo apt-get install tmux 
 sudo apt-get install fzf
+sudo apt-get install python-pip
+pip install pyyaml
 
 # Download and install oh-my-zsh
 sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
