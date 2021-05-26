@@ -18,6 +18,8 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 # Download vim plugins
 # gruvbox vim colortheme
 # git clone https://github.com/morhetz/gruvbox.git ~/.vim/pack/default/start/gruvbox
+git clone https://github.com/ctrlpvim/ctrlp.vim.git .vim/pack/default/start/ctrlp.vim
+git clone https://github.com/preservim/nerdtree.git ~/.vim/pack/default/start/nerdtree
 
 # dotfiles installation
 mv ~/.bashrc bashrc-old-file
