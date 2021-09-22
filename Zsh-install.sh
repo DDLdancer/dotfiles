@@ -6,6 +6,8 @@ sudo apt-get install zsh
 sudo apt-get install tmux 
 sudo apt-get install fzf
 sudo apt-get install python-pip
+sudo apt-get install autojump
+sudo apt-get install shellcheck
 pip install pyyaml
 
 # Download and install oh-my-zsh
