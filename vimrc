@@ -69,8 +69,8 @@ cmap w!! w !sudo tee > /dev/null %
 " Plugin Settings!!
 
 " 1.gruvbox
-" colorscheme gruvbox
-" set background=dark
+colorscheme gruvbox
+set background=dark
 
 " 2.NERDTree
 " Start NERDTree. If a file is specified, move the cursor to its window.
