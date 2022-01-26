@@ -119,5 +119,6 @@ fi
 #cool shell prompt
 export PS1="\[\e[36;40m\][\[\e[m\]\[\e[36;40m\]\W\[\e[m\]\[\e[36;40m\]]\[\e[m\]\[\e[34;40m\]>\[\e[m\]\[\e[32;40m\]>\[\e[m\]\[\e[33;40m\]>\[\e[m\]\[\e[40m\]\\$\[\e[m\] "
 
+source ~/.dotfiles/aliases.sh
 source ~/.dotfiles/shell-settings.sh
 source ~/.dotfiles/specified-settings.sh
