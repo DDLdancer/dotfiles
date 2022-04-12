@@ -15,16 +15,16 @@ pip install pyyaml
 sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # Download zsh plugins
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
-git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+git clone "https://github.com/zsh-users/zsh-syntax-highlighting.git" "${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting"
+git clone "https://github.com/zsh-users/zsh-autosuggestions" "${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions"
 
 # Download vim plugins
-git clone https://github.com/morhetz/gruvbox.git ~/.vim/pack/default/start/gruvbox
-git clone https://github.com/preservim/nerdtree.git ~/.vim/pack/default/start/nerdtree
-git clone https://github.com/Xuyuanp/nerdtree-git-plugin.git ~/.vim/pack/default/start/nerdtree-git-plugin
-git clone https://github.com/airblade/vim-gitgutter.git ~/.vim/pack/default/start/vim-gitgutter
-git clone --depth 1 https://github.com/ctrlpvim/ctrlp.vim.git ~/.vim/pack/plugins/start/ctrlp.vim
-git clone --depth 1 https://github.com/sheerun/vim-polyglot.git ~/.vim/pack/plugins/start/vim-polyglot
+git clone "https://github.com/morhetz/gruvbox.git" "$HOME/.vim/pack/default/start/gruvbox"
+git clone "https://github.com/preservim/nerdtree.git" "$HOME/.vim/pack/default/start/nerdtree"
+git clone "https://github.com/Xuyuanp/nerdtree-git-plugin.git" "$HOME/.vim/pack/default/start/nerdtree-git-plugin"
+git clone "https://github.com/airblade/vim-gitgutter.git" "$HOME/.vim/pack/default/start/vim-gitgutter"
+git clone --depth 1 "https://github.com/ctrlpvim/ctrlp.vim.git" "$HOME/.vim/pack/plugins/start/ctrlp.vim"
+git clone --depth 1 "https://github.com/sheerun/vim-polyglot.git" "$HOME/.vim/pack/plugins/start/vim-polyglot"
 
 # dotfiles installation
 mv ~/.bashrc bashrc-old-file
