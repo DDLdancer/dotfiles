@@ -12,6 +12,14 @@
         ~/.bashrc: bashrc
         ~/.zshrc: zshrc
         ~/.aria2/aria2.conf: aria2.conf
+        ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting: zsh-plugin/zsh-syntax-highlighting
+        ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions: zsh-plugin/zsh-autosuggestions
+        ~/.vim/pack/default/start/gruvbox: vim-plugin/gruvbox
+        ~/.vim/pack/default/start/nerdtree: vim-plugin/nerdtree
+        ~/.vim/pack/default/start/nerdtree-git-plugin: vim-plugin/nerdtree-git-plugin
+        ~/.vim/pack/default/start/vim-gitgutter: vim-plugin/vim-gitgutter
+        ~/.vim/pack/default/start/ctrlp.vim: vim-plugin/ctrlp.vim
+        ~/.vim/pack/default/start/vim-polyglot: vim-plugin/vim-polyglot
 
 - create:
         - ~/downloads
