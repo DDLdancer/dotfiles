@@ -66,6 +66,8 @@ set mouse+=a
 " Allow saving of files as sudo when I forgot to start vim using sudo. 
 cmap w!! w !sudo tee > /dev/null %
 
+let mapleader = "g"
+
 " Plugin Settings!!
 
 " 1.gruvbox
@@ -79,3 +81,7 @@ autocmd VimEnter * NERDTree | wincmd p
 autocmd BufEnter * if winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | endif
 " Open the existing NERDTree on each new tab.
 autocmd BufWinEnter * if getcmdwintype() == '' | silent NERDTreeMirror | endif
+
+" 3. vim-gitgutter
+" map "ghp" to GitGutterPreviewHunk
+map <leader>hp <Plug>(GitGutterPreviewHunk)
