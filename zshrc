@@ -102,4 +102,7 @@ source $ZSH/oh-my-zsh.sh
 source ~/.dotfiles/aliases.sh
 
 source ~/.dotfiles/shell-settings.sh
-source ~/.dotfiles/specified-settings.sh
+
+if [ -f "~/.dotfiles/specified-settings.sh" ]; then
+	source "~/.dotfiles/specified-settings.sh"
+fi
