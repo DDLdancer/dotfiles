@@ -103,6 +103,4 @@ source ~/.dotfiles/aliases.sh
 
 source ~/.dotfiles/shell-settings.sh
 
-if [ -f "~/.dotfiles/specified-settings.sh" ]; then
-	source "~/.dotfiles/specified-settings.sh"
-fi
+source ~/.dotfiles/specified-settings.sh
