@@ -4,27 +4,27 @@
 	ignore = dirty
 
 [submodule "zsh-plugin/zsh-autosuggestions"]
-	path = zsh-plugin/zsh-autosuggestions
+	path = submodules/zsh-plugin/zsh-autosuggestions
 	url = https://github.com/zsh-users/zsh-autosuggestions.git
 [submodule "zsh-plugin/zsh-syntax-highlighting"]
-	path = zsh-plugin/zsh-syntax-highlighting
+	path = submodules/zsh-plugin/zsh-syntax-highlighting
 	url = https://github.com/zsh-users/zsh-syntax-highlighting.git
 
 [submodule "vim-plugin/gruvbox"]
-	path = vim-plugin/gruvbox
+	path = submodules/vim-plugin/gruvbox
 	url = https://github.com/morhetz/gruvbox.git
 [submodule "vim-plugin/nerdtree"]
-	path = vim-plugin/nerdtree
+	path = submodules/vim-plugin/nerdtree
 	url = https://github.com/preservim/nerdtree.git
 [submodule "vim-plugin/nerdtree-git-plugin"]
-	path = vim-plugin/nerdtree-git-plugin
+	path = submodules/vim-plugin/nerdtree-git-plugin
 	url = https://github.com/Xuyuanp/nerdtree-git-plugin.git
 [submodule "vim-plugin/vim-gitgutter"]
-	path = vim-plugin/vim-gitgutter
+	path = submodules/vim-plugin/vim-gitgutter
 	url = https://github.com/airblade/vim-gitgutter.git
 [submodule "vim-plugin/ctrlp.vim"]
-	path = vim-plugin/ctrlp.vim
+	path = submodules/vim-plugin/ctrlp.vim
 	url = https://github.com/ctrlpvim/ctrlp.vim.git
 [submodule "vim-plugin/vim-polyglot"]
-	path = vim-plugin/vim-polyglot
+	path = submodules/vim-plugin/vim-polyglot
 	url = https://github.com/sheerun/vim-polyglot.git
