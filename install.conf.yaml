@@ -3,6 +3,8 @@
                 relink: true
                 create: true
 
+- shell:
+         - [git submodule update --init --recursive, Installing submodules]
 
 - clean: ['~']
 
@@ -26,7 +28,3 @@
 
 - create:
         - ~/downloads
-        #- ~/.vim/undo-history
-
-- shell:
-         - [git submodule update --init --recursive, Installing submodules]
