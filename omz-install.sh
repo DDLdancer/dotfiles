@@ -17,4 +17,4 @@ sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools
 # dotfiles installation
 mv ~/.bashrc bashrc-old-file
 rm ~/.zshrc
-~/.dotfiles/install
+~/.dotfiles/install.sh
