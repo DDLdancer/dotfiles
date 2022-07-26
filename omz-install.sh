@@ -2,13 +2,14 @@
 set -e
 
 # install packages
-sudo apt-get install git
-sudo apt-get install zsh 
-sudo apt-get install tmux 
-sudo apt-get install fzf
-sudo apt-get install python-pip
-sudo apt-get install autojump
-sudo apt-get install shellcheck
+sudo apt update
+sudo apt install git
+sudo apt install zsh 
+sudo apt install tmux 
+sudo apt install fzf
+sudo apt install python-pip
+sudo apt install autojump
+sudo apt install shellcheck
 pip install pyyaml
 
 # Download and install oh-my-zsh
