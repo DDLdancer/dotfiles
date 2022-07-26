@@ -1,4 +1,4 @@
-1.Clone this repo to your home folder  
-2.rename "dotfiles" to ".dotfiles"  
-3.enter the folder and execute Zsh-install.sh  
-4.IMPORTANT! once you enter zsh, use "exit" or ^D to logout and finish running the script  
+1. Clone this repositry to your home folder
+`git clone git@github.com:DDLdancer/dotfiles.git ~/.dotfiles`  
+2. Enter the folder and execute omz-install.sh  
+3. **IMPORTANT!** Once you have entered zsh, use "exit" or ^D to logout and finish running the script  
