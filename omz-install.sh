@@ -3,7 +3,7 @@ set -e
 
 # install packages
 sudo -E apt update
-sudo -E apt install git zsh tmux fzf autojump python3-pip
+sudo -E apt install -y git zsh tmux fzf autojump python3-pip
 pip3 install pyyaml
 
 # Download and install oh-my-zsh
