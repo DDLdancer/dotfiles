@@ -9,7 +9,8 @@ pip3 install pyyaml
 # Download and install oh-my-zsh
 sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
+# Save older config files
+mv ~/.zshrc ~/.dotfiles/zshrc-old-file
+
 # dotfiles installation
-mv ~/.bashrc bashrc-old-file
-mv ~/.zshrc zshrc-old-file
 ~/.dotfiles/install.sh

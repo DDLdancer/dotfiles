@@ -11,7 +11,6 @@
 - link:
         ~/.tmux.conf: tmux.conf
         ~/.vimrc: vimrc
-        ~/.bashrc: bashrc
         ~/.zshrc: zshrc
         ~/.gitconfig: gitconfig
         ~/.aria2/aria2.conf: aria2.conf
