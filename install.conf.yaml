@@ -15,6 +15,7 @@
         ~/.gitconfig: gitconfig
         ~/.aria2/aria2.conf: aria2.conf
         ~/.config/i3/config: i3.conf
+        ~/.config/i3blocks/config: i3blocks.conf
         ~/.gdbinit: submodules/gdb-dashboard/.gdbinit
 
         ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting: submodules/zsh-plugin/zsh-syntax-highlighting
