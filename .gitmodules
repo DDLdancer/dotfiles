@@ -31,3 +31,9 @@
 [submodule "submodules/gdb-dashboard"]
 	path = submodules/gdb-dashboard
 	url = https://github.com/cyrus-and/gdb-dashboard.git
+[submodule "submodules/i3blocks-contrib"]
+	path = submodules/i3blocks-contrib
+	url = https://github.com/vivien/i3blocks-contrib
+[submodule "submodules/alacritty-theme"]
+	path = submodules/alacritty-theme
+	url = https://github.com/alacritty/alacritty-theme

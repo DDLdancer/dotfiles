@@ -9,6 +9,9 @@
 - clean: ['~']
 
 - link:
+        ~/.config/alacritty/themes: submodules/alacritty-theme
+        ~/.config/i3blocks: submodules/i3blocks-contrib
+
         ~/.tmux.conf: tmux.conf
         ~/.vimrc: vimrc
         ~/.zshrc: zshrc
@@ -17,6 +20,7 @@
         ~/.config/i3/config: i3.conf
         ~/.config/i3blocks/config: i3blocks.conf
         ~/.gdbinit: submodules/gdb-dashboard/.gdbinit
+        ~/.config/alacritty/alacritty.toml: alacritty.toml
 
         ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting: submodules/zsh-plugin/zsh-syntax-highlighting
         ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions: submodules/zsh-plugin/zsh-autosuggestions

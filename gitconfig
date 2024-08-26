@@ -1,3 +1,39 @@
 [user]
-	email = zhangyc.life@gmail.com
-	name = Youcheng Zhang
+	email = youchengzhang@pony.ai
+	name = youchengzhang
+[core]
+	editor = vim
+[scalar]
+	repo = /home/youchengzhang/work/ponyai/.sub-repos/common
+	repo = /home/youchengzhang/work/ponyai/.sub-repos/os-environment
+	repo = /home/youchengzhang/work/ponyai/.sub-repos/perception
+	repo = /home/youchengzhang/work/ponyai/.sub-repos/esw
+	repo = /home/youchengzhang/work/ponyai/.sub-repos/sensors
+	repo = /home/youchengzhang/work/ponyai/.sub-repos/pnc
+	repo = /home/youchengzhang/work/ponyai/.sub-repos/map
+	repo = /home/youchengzhang/work/ponyai/.sub-repos/infrastructure
+	repo = /home/youchengzhang/work/ponyai/.sub-repos/.sub-repos/common
+	repo = /home/youchengzhang/work/ponyai/.sub-repos/.sub-repos/pnc
+	repo = /home/youchengzhang/work/ponyai/.sub-repos/.sub-repos/perception
+	repo = /home/youchengzhang/work/ponyai/.sub-repos/.sub-repos/os-environment
+	repo = /home/youchengzhang/work/ponyai/.sub-repos/.sub-repos/esw
+	repo = /home/youchengzhang/work/ponyai/.sub-repos/.sub-repos/sensors
+	repo = /home/youchengzhang/work/ponyai/.sub-repos/.sub-repos/map
+	repo = /home/youchengzhang/work/ponyai/.sub-repos/.sub-repos/infrastructure
+[maintenance]
+	repo = /home/youchengzhang/work/ponyai/.sub-repos/common
+	repo = /home/youchengzhang/work/ponyai/.sub-repos/os-environment
+	repo = /home/youchengzhang/work/ponyai/.sub-repos/perception
+	repo = /home/youchengzhang/work/ponyai/.sub-repos/esw
+	repo = /home/youchengzhang/work/ponyai/.sub-repos/sensors
+	repo = /home/youchengzhang/work/ponyai/.sub-repos/pnc
+	repo = /home/youchengzhang/work/ponyai/.sub-repos/map
+	repo = /home/youchengzhang/work/ponyai/.sub-repos/infrastructure
+	repo = /home/youchengzhang/work/ponyai/.sub-repos/.sub-repos/common
+	repo = /home/youchengzhang/work/ponyai/.sub-repos/.sub-repos/pnc
+	repo = /home/youchengzhang/work/ponyai/.sub-repos/.sub-repos/perception
+	repo = /home/youchengzhang/work/ponyai/.sub-repos/.sub-repos/os-environment
+	repo = /home/youchengzhang/work/ponyai/.sub-repos/.sub-repos/esw
+	repo = /home/youchengzhang/work/ponyai/.sub-repos/.sub-repos/sensors
+	repo = /home/youchengzhang/work/ponyai/.sub-repos/.sub-repos/map
+	repo = /home/youchengzhang/work/ponyai/.sub-repos/.sub-repos/infrastructure
