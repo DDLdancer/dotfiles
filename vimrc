@@ -68,6 +68,9 @@ cmap w!! w !sudo tee > /dev/null %
 
 let mapleader = "g"
 
+" Show match count when searching
+set shortmess-=S
+
 " Plugin Settings!!
 
 " 1.gruvbox
