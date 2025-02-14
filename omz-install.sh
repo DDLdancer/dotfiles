@@ -3,7 +3,7 @@ set -e
 
 # install packages
 sudo -E apt update
-sudo -E apt install -y zsh tmux fzf autojump python3-pip i3 i3blocks rofi
+sudo -E apt install -y zsh tmux fzf autojump python3-pip i3 i3blocks i3lock rofi
 pip3 install pyyaml
 
 # Download and install oh-my-zsh
